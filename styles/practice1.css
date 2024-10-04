@@ -1,0 +1,12 @@
+header{
+    background-color: #ffffffba;
+}
+
+ul{
+display:flex;
+}
+ul li{
+padding: 30px;
+list-style: none;
+margin: 15px;
+}
