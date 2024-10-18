@@ -195,16 +195,7 @@ p {
   .sociallinks p{
     padding-right: 20px;
   } */
-  footer {
-    background-color: #d4c4f7; /* Soft purple background */
-    border: 2px solid #999; /* Border around the footer */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 20px; /* Adds padding inside the footer */
-    display: flex; /* Makes the footer's contents flex items */
-    justify-content: space-between; /* Aligns text on left and icons on the right */
-    align-items: center; /* Vertically aligns items */
-    height: 80px; /
-  }
+  
 
   .sociallinks {
     display: flex;
@@ -362,59 +353,7 @@ p {
     padding: 20px;
   }
 
-  /* Hero Container */
-.hero {
-    position: relative;
-    background-size: cover;
-    height: 500px;
-    background-position: center;
-    background-size: cover;
-  }
-
-  .hero img{
-    background-position: center;
-    background-size: cover;
-    height: 100%;
-    width: 1160px;
-  }
-  
-  .hero h1 {
-    position: absolute;
-    top: 0%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-size: 48px;
-    color: #fff;
-    margin: 10px;
-    border-radius: 5px ;
-    background-color:black;
-  }
-
-  
-.hero article {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .hero article img {
-    float: right;
-    margin: 10px;
-    width: 100px;
-  }
-  
-  .hero article p {
-    font-size: 18px;
-    margin-bottom: 20px;
-  }
-
-  section img{
-    width: 600px;
-  }
-
+ 
   footer img{
     width: 30px;
     float: 70px;
@@ -458,48 +397,7 @@ p {
   .sociallinks p{
     padding-right: 20px;
   } */
-  footer {
-    background-color: #d4c4f7; /* Soft purple background */
-    border: 2px solid #999; /* Border around the footer */
-    border-radius: 10px; /* Rounded corners */
-    padding: 10px 20px; /* Adds padding inside the footer */
-    display: flex; /* Makes the footer's contents flex items */
-    justify-content: space-between; /* Aligns text on left and icons on the right */
-    align-items: center; /* Vertically aligns items */
-    height: 80px; /
-  }
-
-  .sociallinks {
-    display: flex;
-    justify-content: center; /* Centers the content horizontally */
-    align-items: center; /* Vertically align the items */
-    height: 15vh;
-    width: 100%; /* Stretch across the entire width */
-    padding: 10px;
-    box-sizing: border-box; /* Includes padding in the element’s width */
-    border-radius: 10px;
-}
-
-.sociallinks p {
-    margin: 0 auto; /* Center the paragraph */
-    font-weight: bold;
-    flex-grow: 1; /* Allows the paragraph to take up available space */
-    text-align: center; /* Center the text inside the paragraph */
-}
-
-.sociallinks a {
-    margin-left: 10px; /* Space between the icons */
-}
-
-.sociallinks a img {
-    width: 24px; /* Adjust the size of the icons */
-}
-
-.sociallinks div {
-    display: flex;
-    justify-content: flex-end; /* Aligns icons to the right */
-    flex-grow: 0; 
-}
+  
 
 .jireh {
   display: grid;
