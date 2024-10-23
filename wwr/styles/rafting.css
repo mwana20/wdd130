@@ -11,6 +11,7 @@ header {
   max-width: 100%; /* Ensures the logo image is responsive */
   height: auto;
   width: 200px; /* Match the size of the logo in the screenshot */
+  
 }
 
 nav ul {
@@ -179,22 +180,7 @@ p {
     align-items: center;
     padding: 3opx;
   }
-/* 
-  .sociallinks {
-    display: flex;
-    justify-content: center;
-    bottom: 0%;
-  }
 
-  .sociallinks a img{
-    float: right;
-    padding-right: 40px;
-    align-items:flex-end;
-  }
-
-  .sociallinks p{
-    padding-right: 20px;
-  } */
   
 
   .sociallinks {
@@ -381,23 +367,6 @@ p {
     align-items: center;
     padding: 3opx;
   }
-/* 
-  .sociallinks {
-    display: flex;
-    justify-content: center;
-    bottom: 0%;
-  }
-
-  .sociallinks a img{
-    float: right;
-    padding-right: 40px;
-    align-items:flex-end;
-  }
-
-  .sociallinks p{
-    padding-right: 20px;
-  } */
-  
 
 .jireh {
   display: grid;
@@ -710,4 +679,63 @@ footer p {
   .sociallinks {
       margin-left: 0;
   }
+}
+/* Center the newsletter section and give it a background color */
+.newsletter-signup {
+  background-color: steelblue; /* Steel blue background */
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px; /* Control the width of the entire section */
+  text-align: left; /* Left align the text */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+  color: white;
+}
+
+.newsletter-signup h2 {
+  text-align: center; /* Center the heading */
+  margin-bottom: 20px;
+}
+
+/* Form styles */
+.newsletter-signup form {
+  display: flex;
+  flex-direction: column;
+}
+
+.newsletter-signup label {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.newsletter-signup input {
+  padding: 10px;
+  margin-bottom: 15px;
+  width: 100%;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Button styling */
+.newsletter-signup button {
+  align-self: flex-end; /* Align the button to the right */
+  padding: 10px 20px;
+  background-color: #fff; /* White button */
+  color: steelblue; /* Text color to match section background */
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-signup button:hover {
+  background-color: #f0f0f0; /* Light hover effect */
+}
+
+/* Input fields styling */
+.newsletter-signup input:focus {
+  outline: none;
+  border-color: #333; /* Darker border on focus */
 }
