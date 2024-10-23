@@ -398,5 +398,14 @@ h2 {
   transform: scale(1.1); /* Increases the image size by 10% */
   transition: transform 0.3s ease;
 }
+/* Add this to styles/rafting.css */
+
+/* Style for Google Maps iframe */
+.google-map {
+  width: 100%;
+  max-width: 600px;
+  height: 450px;
+  border: none;
+}
 
 
