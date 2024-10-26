@@ -49,7 +49,7 @@ nav ul li a:hover {
 }
 
 section h2 {
-  color: coral;
+  color:BL;
 }
 
 body {
@@ -91,20 +91,20 @@ p {
 
 /* Hero Section */
 .hero {
-  position: relative;
+  position: absolute;
   background-size: cover;
-  height: 500px;
+  height: 900px;
   background-position: center;
 }
 
 .hero img {
   height: 100%;
-  width: 1160px;
+  width: 1060px;
 }
 
 .hero h1 {
   position: absolute;
-  top: 0%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px;
@@ -131,7 +131,10 @@ p {
 
 /* Footer */
 footer img {
-  width: 30px;
+  width: 50px;
+}
+footer p{
+  color:#ffffff;
 }
 
 .ga img {
@@ -150,26 +153,35 @@ footer img {
   gap: 20px;
 }
 
+.Nissi {
+  display: flex; /* Use flexbox for layout */
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center align items */
+  text-align: center; /* Center text within the section */
+  background-color: #f9f9f9; /* Light background for better visibility */
+  padding: 20px; /* Add padding for spacing */
+  border-radius: 8px; /* Slightly rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
 .jireh {
-  display: grid;
-  grid-template-columns: 1fr auto 1fr;
-  align-items: center;
-  gap: 20px;
-  padding: 20px;
+  display:flex; /* Use flexbox for layout */
+  align-items: center; /* Center align items */
+  text-align: justify; /* Justify text for a cleaner look */
+  gap: 20px; /* Space between elements */
+  padding: 20px; /* Add padding around the content */
 }
 
 .jireh img {
-  max-width: 100%;
-  height: auto;
-  margin: 0 auto;
+  max-width: 100%; /* Make image responsive */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 5px; /* Slightly rounded corners for images */
 }
 
 .jireh p {
-  text-align: justify;
-}
-
-.Nissi {
-  text-align: center;
+  margin: 10px 0; /* Space above and below paragraphs */
+  line-height: 1.6; /* Increased line height for readability */
+  color: #555; /* Slightly lighter color for text */
 }
 
 /* Social Links */
@@ -249,6 +261,7 @@ footer img {
 .newsletter-signup h2 {
   text-align: center;
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 
 .newsletter-signup form {
@@ -356,8 +369,8 @@ textarea {
   display: block; /* Makes the button a block element */
   width: 100%; /* Full width for the button */
   padding: 10px; /* Padding inside the button for comfort */
-  background-color: #007bff; /* Blue background color */
-  color: white; /* White text color */
+  background-color: #212121; /* Blue background color */
+  color:white; /* White text color */
   border: none; /* No border */
   border-radius: 4px; /* Rounds corners of the button */
   font-size: 16px; /* Increases font size */
@@ -378,6 +391,10 @@ textarea {
 h2 {
   color: #333; /* Dark gray color for the heading */
   margin-bottom: 20px; /* Space below the heading */
+}
+
+.cta{
+  margin-bottom: 0px;
 }
 
 .profile-grid {
@@ -403,9 +420,191 @@ h2 {
 /* Style for Google Maps iframe */
 .google-map {
   width: 200%;
-  max-width: 600px;
+  max-width: 100%;
   height: 450px;
   border: none;
 }
+footer {
+  background-color: #f8f9fa; /* Light background color for contrast */
+  border-top: 3px solid #007bff; /* Blue top border for the footer */
+  padding: 20px; /* Adds padding around the footer */
+  text-align: center; /* Centers the text inside the footer */
+  background-color: #212121;
+}
+
+
+figure img {
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+figure:hover img {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+/* Optional: Hover effect for figure captions */
+figure figcaption {
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+figure:hover figcaption {
+  color: #007bff; /* Change caption text color on hover */
+}
+
+.ga img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Smooth transition for scaling */
+}
+
+.ga img:hover {
+  transform: scale(1.1); /* Scale the image to 110% on hover */
+}
+
+.ga figcaption {
+  margin-top: 5px;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.ga figure:hover figcaption {
+  color: #007bff; 
+}
+/* General body styling */
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Styling for header and navigation */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #eee;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds shadow to separate from main content */
+  position: relative; /* Separate it visually from the main */
+  z-index: 1;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-weight: 700;
+  color: #333;
+}
+
+/* Add a gap between header and main content */
+main {
+  flex: 1;
+  padding-top: 2rem; /* Creates space between header and main */
+  margin-top: 20px;  /* Adds a margin to push main down */
+}
+
+/* Hero section */
+.hero {
+  position: relative;
+  text-align: center;
+  margin-bottom: 2rem; /* Adds space below the hero section */
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px 20px;
+  font-size: 2rem;
+  font-weight: 900;
+}
+
+/* Information grid for images */
+.info-grid {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.grid-item {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.grid-item figure {
+  flex: 1 1 300px;
+  margin: 0;
+}
+
+.grid-item img {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.grid-item figcaption {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-weight: 700;
+}
+
+/* Styling for the newsletter section */
+.newsletter-signup form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin: 2rem;
+  max-width: 400px;
+  padding: 1rem;
+  background-color: #212121;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.newsletter-signup input {
+  padding: 0.5rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.newsletter-signup button {
+  padding: 0.7rem;
+  background-color: #212121;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.newsletter-signup button:hover {
+  background-color: hsl(63, 80%, 50%);
+}
+
+
+
 
 
