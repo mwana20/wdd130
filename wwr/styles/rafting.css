@@ -69,6 +69,7 @@ h1, h2, h3 {
 
 h1 {
   font-size: 36px;
+  color: white;
 }
 
 /* Paragraphs */
@@ -95,6 +96,7 @@ p {
   background-size: cover;
   height: 900px;
   background-position: center;
+  color: white;
 }
 
 .hero img {
@@ -108,7 +110,7 @@ p {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 48px;
-  color: #fff;
+  color:white;
   margin: 10px;
   border-radius: 5px;
   background-color: black;
@@ -116,11 +118,13 @@ p {
 
 .hero article {
   position: absolute;
-  bottom: 20px;
-  left: 20px;
-  background-color: rgba(255, 255, 255, 0.7);
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
   padding: 20px;
   border-radius: 10px;
+  width: 90%;
 }
 
 .hero article img {
@@ -323,7 +327,7 @@ footer p{
 
 h2 {
   text-align: center; /* Centers the heading */
-  color: #333; /* Dark gray color for better readability */
+  color:white; /* Dark gray color for better readability */
 }
 
 .form-group {
@@ -602,6 +606,28 @@ main {
 
 .newsletter-signup button:hover {
   background-color: hsl(63, 80%, 50%);
+}
+.trips-table{
+  justify-content: center;
+  padding-bottom: 0px;
+  padding: 0px;
+}
+table {
+  border-collapse: collapse;
+  width: 80%;
+  text-align: left;
+  padding-bottom: 10px;
+margin-bottom: 40px;
+}
+
+th, td {
+  border: 1px solid #000;
+  padding: 10px;
+}
+
+/* Header row styling */
+th {
+  background-color: #f2f2f2;
 }
 
 
