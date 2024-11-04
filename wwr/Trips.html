@@ -13,9 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/rafting.css">
 
-    <link rel="preload" as="image" href="/wwr/images/boat.jpg">
-    <link rel="preload" as="image" href="/wwr/images/helmate.jpg">
-    <link rel="preload" as="image" href="/wwr/images/kids.jpg">
+
     <link rel="preload" as="image" href="/wwr/images/paddle.jpg">
     <link rel="preload" as="image" href="/wwr/images/alone.jpg">
     <link rel="preload" as="image" href="/wwr/images/forward.jpg">
@@ -56,40 +54,16 @@
 
         <section class="trip-descriptions">
             <div class="hero">
-                <img id="slideshowImage" src="/wwr/images/river-rapids.jpg" alt="River Rapids Adventure" width="100%" height="500vh" loading="lazy">
+                <img src="/wwr/images/underrafting.jpg" alt="">
                 <article class="trip">
+                    <img id="lakeEscapeImage" src="/wwr/images/move.jpg" alt="Lake Escape" width="100%" height="500vh" loading="lazy">
                     <h2 style="color: white;">Our Thrilling Trips</h2>
                     <h3>River Rapids Adventure</h3>
                     <p>Experience the thrill of navigating through challenging rapids in a heart-pounding adventure! Perfect for those with a love for excitement, this journey takes you through wild currents surrounded by breathtaking landscapes...</p>
                 </article>
             </div>
+            
 
-            <script>
-                document.addEventListener("DOMContentLoaded", () => {
-                    
-                    const slideshowImages = [
-                        "/wwr/images/alone.jpg",
-                        "/wwr/images/helmate.jpg",
-                        "/wwr/images/kids.jpg",
-                       
-                    ];
-                    
-                    let currentImageIndex = 0; 
-                    const slideshowInterval = 3000; 
-                    const slideshowImage = document.getElementById("slideshowImage");
-
-                    function updateSlideshowImage() {
-                        slideshowImage.style.opacity = 0; 
-                        setTimeout(() => {
-                            slideshowImage.src = slideshowImages[currentImageIndex];
-                            slideshowImage.style.opacity = 1; 
-                            currentImageIndex = (currentImageIndex + 1) % slideshowImages.length;
-                        }, 500);
-                    }
-
-                    setInterval(updateSlideshowImage, slideshowInterval);
-                });
-            </script>
 
             <div class="hero">
                 <img id="lakeEscapeImage" src="/wwr/images/move.jpg" alt="Lake Escape" width="100%" height="500vh" loading="lazy">
@@ -98,8 +72,7 @@
                     <p>Enjoy a relaxing day on the serene, crystal-clear waters of Lake Paradise, where the beauty of nature meets tranquility...</p>
                 </article>
             </div>
-
-         
+       
             <script>
                 document.addEventListener("DOMContentLoaded", () => {
                     const lakeEscapeImages = [
