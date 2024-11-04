@@ -141,6 +141,9 @@ footer p{
   color:#ffffff;
 }
 
+.footer-right a {
+  color: white;
+}
 .ga img {
   width: 200px;
   height: 200px;
